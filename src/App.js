@@ -6,7 +6,7 @@ import abi from './utils/WavePortal.json';
 export default function App() {
 	const [currentAccount, setCurrentAccount] = useState('');
 
-	const contractAddress = process.env.REACT_APP_WAVE_PORTAL_ADDRESS;
+	const contractAddress = '0xF1e53ED19fc05E053D02675c3Eac2eba87B047F4';
 
 	const contractABI = abi.abi;
 
